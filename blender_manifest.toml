@@ -1,0 +1,18 @@
+schema_version = "1.0.0"
+id = "module_installer"
+version = "1.2.2"
+name = "module installer"
+tagline = "Automate Blender using GPT without an API key"
+maintainer = "haseebahmad295 <quicktiptech@gmail.com>"
+type = "add-on"
+website = "https://github.com/haseebahmed295/blender-Free-Gpt"
+tags = [ "Animation", "Object",]
+wheels = []
+blender_version_min = "4.2.0"
+license = [ "SPDX:GPL-3.0-or-later",]
+
+[permissions]
+network = "Needed to prompt ai  models"
+
+[build]
+paths_exclude_pattern = [ "/.git/", "__pycache__/",]
